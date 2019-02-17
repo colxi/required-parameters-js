@@ -1,6 +1,6 @@
-# P_REQUIRED (Mandatory function Parameters for JS)
+## P_REQUIRED : Mandatory function parameters for JS
 
-It allows to use the `P_REQUIRED` flag (as a default parameter value) on those function parameters that are mandatory. If the parameters are not provided (or `undefined` is provided), throws an Error with the full error stack, to trace it. 
+It allows to use the `P_REQUIRED` flag (as a default parameter value) on those function parameters that you want to be mandatory. If the parameters are not provided, a `Missing required parameter` Error is thrown. 
 
 Compatible with 
 - Node
@@ -27,5 +27,10 @@ Compatible with
 ```
 ## How it works
 
-P_REQUIRED is simply a getter in the global object (window|self|global). When the function with P_REQUIRED parameters is called, without any of those parameter, the `default parameter value is assigned`, triggering the getter handler, which throws an Exception with the full stack trace.
+P_REQUIRED is just a trick performed thanks to the ES6 function `default parameter values`.
+The P_REQUIRED identifier is declared by this library in the corresponding global object (window | self | global). 
+
+When you call a function that uses P_REQUIRED, and the required parameter is missing, the javascript interpreter tries to assign the value of P_REQUIRED to the argument, executing the the getter handler is this attempt. 
+
+An Error is thrown by the P_REQUIRED getter handler, with details of the location of the missing parameter, and the execution is stopped.
 
