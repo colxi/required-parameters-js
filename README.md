@@ -7,11 +7,9 @@ Compatible with
 - Browsers
 
 ```javascript
-  import './P_REQUIRED.js';
-  // or in Node : 
-  // require('P_REQUIRED.js'); 
+  import './P_REQUIRED.js'; // require('P_REQUIRED.js'); 
   
-  // declare a function wwith a required parameter
+  // declare a function wwith a mandatory parameter
   function myFunc( myParam = P_REQUIRED ){
     /* some code here */
   }
