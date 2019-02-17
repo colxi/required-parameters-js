@@ -1,6 +1,6 @@
 ## P_REQUIRED : Mandatory function parameters for JS
 
-It allows to use the `P_REQUIRED` flag (as a default parameter value) on those function parameters that you want to be mandatory. If the parameters are not provided, a `Missing required parameter` Error is thrown. 
+It allows to use a `P_REQUIRED` identifier (as a default parameter value) on those function parameters that you want to be mandatory. If the parameters are not provided, a `Missing required parameter` Error is thrown. 
 
 Compatible with 
 - Node
