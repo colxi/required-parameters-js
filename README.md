@@ -18,7 +18,8 @@ Compatible with **Node & Browsers**
   // at myFunc (https://localhost/main.js/:10:5)
 ```
 
-## Install 
+## Distribution & installation 
+You can use any of the following alternatives:
 
 Install with npm :
 ```
@@ -32,7 +33,7 @@ $ git clone https://github.com/colxi/required-parameters-js.git
 
 Or use the CDN :
 ```
-<script src="https://cdn.jsdelivr.net/gh/colxi/required-parameters-js/dist/required-parameters.min.js">
+<script src="https://cdn.jsdelivr.net/gh/colxi/required-parameters-js/required-parameters.js">
 ```
 
 

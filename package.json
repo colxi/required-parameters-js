@@ -1,6 +1,6 @@
 {
   "name": "required-parameters-js",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Mandatory function parameters for JS",
   "main": "required-parameters.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "required arguments"
   ],
   "author": "colxi",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/colxi/required-parameters-js/issues"
   },
