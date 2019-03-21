@@ -1,0 +1,23 @@
+{
+  "name": "required-parameters-js",
+  "version": "1.0.0",
+  "description": " Mandatory function parameters for JS",
+  "main": "required-param.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colxi/required-param.git"
+  },
+  "keywords": [
+    "required",
+    "parameters"
+  ],
+  "author": "colxi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colxi/required-param/issues"
+  },
+  "homepage": "https://github.com/colxi/required-param#readme"
+}
