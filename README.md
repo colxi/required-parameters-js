@@ -1,27 +1,42 @@
-## required-param : Mandatory function parameters for JS
+## required-parameters-js : Mandatory function parameters for JS
 
 It allows to use the `required` identifier (as a default parameter value) on those function parameters that you want to be mandatory. If the parameters are not provided, a `Missing required parameter` Error is thrown. 
 
-Compatible with 
-- Node
-- Browsers
+Compatible with **Node & Browsers**
 
+##Example 
 ```javascript
-  import './required-param.js'; // require('required-param.js'); 
+  import './required-parameters.js'; 
   
-  // declare a function wwith a mandatory parameter
+  // declare a function wwith a required parameter
   function myFunc( myParam = required ){
     /* function code... */
   }
 
-  // call the function without the parameter
   myFunc();
-  /*
-    Error!
-    Uncaught Error : Missing required parameter 
-    at myFunc (https://localhost/main.js/:10:5)
-  */
+  // Uncaught Error : Missing required parameter 
+  // at myFunc (https://localhost/main.js/:10:5)
 ```
+
+## Install 
+
+Install with npm :
+```
+$ npm install required-parameters-js -s
+```
+
+Clone with git :
+```
+$ git clone https://github.com/colxi/required-parameters-js.git
+```
+
+Or use the CDN :
+```
+<script src="https://cdn.jsdelivr.net/gh/colxi/required-parameters-js/dist/required-parameters.min.js">
+```
+
+
+
 ## How it works
 
 Required-param is just a trick performed thanks to the ES6 function `default parameter values`.
