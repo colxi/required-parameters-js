@@ -1,6 +1,6 @@
 {
   "name": "required-parameters-js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Mandatory function parameters for JS, with declarative syntax",
   "main": "required-parameters.js",
   "scripts": {

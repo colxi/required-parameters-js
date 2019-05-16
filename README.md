@@ -6,7 +6,7 @@ Compatible with **Node & Browsers**
 
 ## Usage Example 
 ```javascript
-  /* global require */
+  /* global required */
   
   import './required-parameters.js'; 
   // or in Node...
@@ -59,7 +59,7 @@ This package is shipped with support to Node CommonJS and ES6 Modules. Use the a
 Because the `required` keyword is declared by the library in the global scope your linter will complain when detecting that `required` is used without previous explicit declaration in your specific namespace. To disable the warning set the `require` keyword in your linter config file or inlined in your code use :
 
 ```javascript
-/* global require */
+/* global required */
 ```
 
 ## How it works
