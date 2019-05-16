@@ -1,7 +1,7 @@
 {
   "name": "required-parameters-js",
-  "version": "1.0.3",
-  "description": "Mandatory function parameters for JS",
+  "version": "1.0.4",
+  "description": "Mandatory function parameters for JS, with declarative syntax",
   "main": "required-parameters.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,8 @@
     "required",
     "parameters",
     "required parameters",
-    "required arguments"
+    "required arguments",
+    "function arguments"
   ],
   "author": "colxi",
   "license": "MIT",
